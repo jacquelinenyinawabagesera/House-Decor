@@ -1,0 +1,80 @@
+
+
+body {
+    margin: 0;
+}
+
+.header-announcement {
+    background-color: rgb(130,191,121);
+    padding: 2vh;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.header-hero {
+    background-image: url(./images/images1.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px; 
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 2vh; 
+}
+
+.header-logo {
+    color: white; 
+}
+
+.header-navigation {
+    display: flex;
+    gap: 10vh;
+    margin-top: 0; 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.header-phone-icon {
+    color: white;
+    margin-top: 0;
+    font-size: 1.5em; 
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%; 
+}
+
+.content-title {
+    color: white;
+    text-align: center;
+}
+
+.content-subtitle {
+    color: white;
+    text-align: center;
+}
+
+.content-button {
+    border: none;
+    background-color: rgb(150, 140, 140);
+    color: white;
+    padding: 3vh;
+    width: 25vh;
+    height: 5vh;
+    border-radius: 1vh;
+    text-align: center;
+    cursor: pointer;
+}
