@@ -83,6 +83,41 @@ body {
     text-align: center;
     cursor: pointer;
 }
+.hero-section {
+    margin-top: 3vh;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #000; 
+    margin: 0; 
+}
+.service-section{
+    padding:10vh;background-color: rgb(230,242,228);display: flex;justify-content: center;gap: 15vh;
+}
+.screen-printing-techiniques{
+    margin-top: 10vh;margin-bottom: 10vh;display: flex;gap: 2vh;align-items: center;flex-direction: column;
+}
+.client-testimonials{
+    margin-top: 10vh;margin-bottom: 10vh;display: flex;flex-direction: column;align-items: center;
+}
+.testimonial-division{
+    display: flex;justify-content: space-evenly;margin-top: 10vh;margin-bottom: 10vh;
+}
+.testimonial-quote-section{
+    display: flex; justify-content: center;gap: 10vh;margin-top: 10vh;margin-bottom: 10vh;
+}
+.testimonial-quote-section img{
+    width: 15vh;margin-left: 8vh;margin-right: 8vh;
+}
+.portifolio-introduction{
+    margin-top: 10vh;margin-bottom: 10vh;
+}
+.main-title {
+    text-align: center;
+    padding: 4vh;
+}
+
 .main-section {
     display: flex;
     justify-content: center;
@@ -90,10 +125,6 @@ body {
     margin-top: 10vh;
     margin-bottom: 10vh;
   }
-/*   
-  .image-container {
-    flex: 1;
-  } */
   
   .screen-printing-image {
     border-radius: 1vh;
@@ -216,20 +247,6 @@ body {
     color: #666;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact-section {
     display: flex;
     justify-content: center;
@@ -297,14 +314,46 @@ body {
 }
 
 
+.testimonial-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.testimonial-card{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: auto;
+    padding: 1vh;
+    background-color: white;
+}
+
+.testimonial-card p{
+    font-size: 20px;
+}
+
+.testimonial-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 20px;
+}
 
 
 
+.partners-logos{
+    display: flex;
+    width: 90vh;
+    gap: 100vh;
+    margin-bottom: 10vh;
+}
 
 
 
-
-/* Base Footer Styles */
+.fa-star{
+    color: rgb(156,204,150);
+}
 .site-footer {
     background-color: rgb(37, 48, 54);
     padding: 10vh 5vw;
@@ -319,15 +368,15 @@ body {
     margin: 0 auto;
 }
 
-/* Footer Sections */
 .footer-brand {
     flex: 1 1 100%;
     max-width: 200px;
 }
 
 .footer-logo {
-    max-width: 150px;
+    max-width: 300px;
     height: auto;
+    border-radius: 2vh;
 }
 
 .footer-about {
@@ -343,7 +392,6 @@ body {
     flex: 2 1 300px;
 }
 
-/* Typography */
 .footer-heading {
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -362,7 +410,6 @@ body {
     color: #cccccc;
 }
 
-/* Links */
 .footer-links {
     list-style: none;
     padding: 0;
@@ -380,7 +427,6 @@ body {
     color: #ffffff;
 }
 
-/* Contact Information */
 .contact-info-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -395,7 +441,7 @@ body {
 
 .contact-icon {
     font-size: 1rem;
-    color: #ffffff;
+    color:white;
     min-width: 20px;
 }
 
@@ -405,7 +451,6 @@ body {
     color: #cccccc;
 }
 
-/* Copyright */
 .footer-copyright {
     text-align: center;
     margin-top: 5vh;
@@ -413,73 +458,5 @@ body {
     color: #888888;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .footer-section, .footer-contact {
-        width: 100%;
-        max-width: 300px;
-    }
-    
-    .contact-info-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .contact-item {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 480px) {
-    .site-footer {
-        padding: 5vh 3vw;
-    }
-    
-    .footer-heading {
-        font-size: 1.3rem;
-    }
-    
-    .footer-subheading {
-        font-size: 1rem;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .map-container {
-        width: 100%; /* Make map full-width on smaller screens */
-        height: auto; /* Allow height to adjust naturally */
-    }
-
-    .contact-info {
-        position: relative; /* Place contact info below the map */
-        top: auto; /* Reset top positioning */
-        left: auto;
-        margin-top: 20px; 
-        width: auto;
-        box-shadow: none;
-        text-align: center;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .printing-methods-container {
-        flex-direction: column;
-    }
-    
-    .method-image {
-        height: 200px;
-    }
-    
-    .caption-header h2 {
-        font-size: 1.3rem;
-    }
-}
 
   
